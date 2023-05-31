@@ -1,0 +1,4 @@
+use lead_gen_business;
+select * from billing;
+insert into billing (amount,charged_datetime,clients_id) values(750,now(),5);
+select * from billing;
